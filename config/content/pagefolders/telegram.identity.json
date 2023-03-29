@@ -1,0 +1,6 @@
+{
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "title": "Telegram.Identity",
+    "path": "[[workspace]]/src/Telegram/src/Identity",
+    "excludeSubdir": true
+}

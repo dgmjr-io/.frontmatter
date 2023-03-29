@@ -1,0 +1,20 @@
+[
+  {
+    "name": "AspNetCore",
+    "title": "ASP.NET Core",
+    "slug": "aspnetcore",
+    "repoUrl": "https://github.com/dgmjr-io/AspNetCore.git"
+  },
+  {
+    "name": "Types",
+    "title": "Types",
+    "slug": "types",
+    "repoUrl": "https://github.com/dgmr-io/Type.git"
+  },
+  {
+    "name": "dgmjr-actions",
+    "title": "Actions",
+    "slug": "dgmjr-actions",
+    "repoUrl": "https://github.com/dgmr-actions"
+  }
+]

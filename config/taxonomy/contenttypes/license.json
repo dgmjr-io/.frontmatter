@@ -1,0 +1,51 @@
+{
+    "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
+    "$id": "https://github.com/dgmjr-io/dgmjr-io/.frontmatter/config/content/types/license.json",
+    "title": "License",
+    "name": "license",
+    "description": "A license for a project",
+    "pageBundle": false,
+    "previewPath": null,
+    "fields": [
+        {
+            "title": "Title",
+            "name": "title",
+            "type": "string",
+            "single": true,
+            "multiple": false,
+            "required": true
+        },
+        {
+            "title": "Publish date",
+            "name": "date",
+            "type": "datetime",
+            "default": "{{now}}",
+            "isPublishDate": true,
+            "single": true,
+            "multiple": false,
+            "required": true
+        },
+        {
+            "title": "Last Modified Date",
+            "name": "lastmod",
+            "type": "datetime",
+            "default": "{{now}}",
+            "isModifiedDate": true,
+            "single": true,
+            "multiple": false,
+            "required": true
+        },
+        {
+            "title": "License",
+            "name": "license",
+            "type": "dataFile",
+            "dataFileId": "licenses",
+            "dataFileKey": "spdx",
+            "dataFileValue": "name",
+            "single": true,
+            "multiple": false
+        }
+    ],
+    "template": "[[workspace]]/.frontmatter/templates/LICENSE.md",
+    "defaultFleName": "LICENSE.md"
+}

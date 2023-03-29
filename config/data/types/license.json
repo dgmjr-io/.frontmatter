@@ -1,0 +1,25 @@
+{
+    "$schema": "https://frontmatter.codes/config/data.types.schema.json",
+    "$id": "https://github.com/dgmjr-io/root/.fontmatter/config/data/types/license.json",
+    "id": "license",
+    "schema": {
+        "type": "object",
+        "title": "License",
+        "required": [
+            "name",
+            "spdx"
+        ],
+        "properties": {
+            "name": {
+                "type": "string",
+                "title": "Name",
+                "description": "License Name"
+            },
+            "spdx": {
+                "type": "string",
+                "title": "Code",
+                "description": "SPDX License Code"
+            }
+        }
+    }
+}

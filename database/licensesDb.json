@@ -1,0 +1,122 @@
+[
+    {
+        "name": "GNU Affero General Public License v3.0 only",
+        "spdx": "AGPL-3.0-only"
+    },
+    {
+        "name": "GNU Affero General Public License v3.0 or later",
+        "spdx": "AGPL-3.0-or-later"
+    },
+    {
+        "name": "Apache License 2.0",
+        "spdx": "Apache-2.0"
+    },
+    {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdx": "BSD-2-Clause"
+    },
+    {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdx": "BSD-3-Clause"
+    },
+    {
+        "name": "Creative Commons Attribution 1.0 Generic",
+        "spdx": "CC-BY-1.0"
+    },
+    {
+        "name": "Creative Commons Attribution 2.0 Generic",
+        "spdx": "CC-BY-2.0"
+    },
+    {
+        "name": "Common Development and Distribution License 1.0",
+        "spdx": "CDDL-1.0"
+    },
+    {
+        "name": "Common Development and Distribution License 1.1",
+        "spdx": "CDDL-1.1"
+    },
+    {
+        "name": "Common Public License 1.0",
+        "spdx": "CPL-1.0"
+    },
+    {
+        "name": "Educational Community License v2.0",
+        "spdx": "ECL-2.0"
+    },
+    {
+        "name": "Eiffel Forum License v2.0",
+        "spdx": "EFL-2.0"
+    },
+    {
+        "name": "clipse Public License 2.0",
+        "spdx": "EPL-2.0"
+    },
+    {
+        "name": "European Union Public License 1.1",
+        "spdx": "EUPL-1.1"
+    },
+    {
+        "name": "European Union Public License 1.2",
+        "spdx": "EUPL-1.2"
+    },
+    {
+        "name": "GNU General Public License v2.0 only",
+        "spdx": "GPL-2.0-only"
+    },
+    {
+        "name": "GNU General Public License v2.0 or later",
+        "spdx": "GPL-2.0-or-later"
+    },
+    {
+        "name": "GNU General Public License v3.0 only",
+        "spdx": "GPL-3.0-only"
+    },
+    {
+        "name": "GNU General Public License v3.0 or later",
+        "spdx": "GPL-3.0-or-later"
+    },
+    {
+        "name": "IBM Public License v1.0",
+        "spdx": "IPL-1.0"
+    },
+    {
+        "name": "ISC License",
+        "spdx": "ISC"
+    },
+    {
+        "name": "GNU Lesser General Public License v2.1 only",
+        "spdx": "LGPL-2.1-only"
+    },
+    {
+        "name": "GNU Lesser General Public License v2.1 or later",
+        "spdx": "LGPL-2.1-or-later"
+    },
+    {
+        "name": "GNU Lesser General Public License v3.0 only",
+        "spdx": "LGPL-3.0-only"
+    },
+    {
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "spdx": "LGPL-3.0-or-later"
+    },
+    {
+        "name": "LaTeX Project Public License v1.3c",
+        "spdx": "LPPL-1.3c"
+    },
+    {
+        "name": "MIT License",
+        "spdx": "MIT"
+    },
+    {
+        "name": "Mozilla Public License 2.0",
+        "spdx": "MPL-2.0"
+    },
+    {
+        "name": "The Unlicense",
+        "spdx": "Unlicense"
+    },
+    {
+        "name": "Do What The F*ck You Want To Public License",
+        "spdx": "WTFPL"
+    }
+]
