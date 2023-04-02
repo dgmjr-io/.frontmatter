@@ -5,6 +5,6 @@
   "title": "Projects",
   "file": "[[workspace]]/.frontmatter/database/projectsDb.json",
   "fileType": "json",
-  "labelField": "name",
+  "labelField": "title",
   "type": "project"
 }

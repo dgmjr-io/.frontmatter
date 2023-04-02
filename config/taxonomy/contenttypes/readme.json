@@ -1,12 +1,8 @@
----
-{
-  "type": "readme"
-}
----
 {
     "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
     "$id": "https://github.com/dgmjr-io/root/.frontmatter/config/taxonomy/contenttypes/readme.json",
     "name": "readme",
+    "id": "readme",
     "description": "A readme file",
     "fileType": "md",
     "pageBundle": false,
@@ -18,17 +14,17 @@
             "description": "The title of the readme file",
             "type": "string",
             "single": true,
-            "required": true
+            "required": true,
+            "multiple": false
         },
         {
             "title": "Project",
             "name": "project",
             "description": "The project this readme file belongs to",
-            "dataType":"project",
             "type": "dataFile",
-            "dataFileId":"projects",
-            "dataFileKey":"slug",
-            "dataFileValue":"name",
+            "dataFileId": "projects",
+            "dataFileKey": "name",
+            "dataFileValue": "name",
             "single": true,
             "required": true
         },
@@ -38,20 +34,21 @@
             "description": "A short description of the project",
             "type": "string",
             "single": false,
-            "required": true
+            "required": true,
+            "multiple": false
         },
         {
             "title": "Authors",
             "name": "authors",
             "type": "dataFile",
             "dataFileId": "authors",
-            "dataFileKey": "slug",
+            "dataFileKey": "github",
             "dataFileValue": "name",
             "multiple": true
         },
         {
             "title": "License",
-            "description":"The license this project is released under",
+            "description": "The license this project is released under",
             "dataType": "license",
             "name": "license",
             "type": "dataFile",

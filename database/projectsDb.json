@@ -1,20 +1,68 @@
 [
   {
-    "name": "AspNetCore",
     "title": "ASP.NET Core",
     "slug": "aspnetcore",
-    "repoUrl": "https://github.com/dgmjr-io/AspNetCore.git"
+    "repoUrl": "https://github.com/dgmjr-io/AspNetCore.git",
+    "name": "Dgmjr.AspNetCore"
   },
   {
-    "name": "Types",
+    "name": "Dgmjr.Types",
     "title": "Types",
     "slug": "types",
     "repoUrl": "https://github.com/dgmr-io/Type.git"
   },
   {
-    "name": "dgmjr-actions",
+    "name": "Dgmjr.Actions",
     "title": "Actions",
     "slug": "dgmjr-actions",
-    "repoUrl": "https://github.com/dgmr-actions"
+    "repoUrl": "https://github.com/dgmr-actions/dgmjr-actions.git"
+  },
+  {
+    "name": "DGMJR.IO",
+    "title": "DGMJR.IO",
+    "slug": "dgmjr-io",
+    "repoUrl": "https://github.com/dgmjr-io/dgmjr-io.git"
+  },
+  {
+    "name": ".github",
+    "title": ".github",
+    "slug": ".github",
+    "repoUrl": "https://github.com/dgmjr-io/.github"
+  },
+  {
+    "name": "Dgmjr.Docs",
+    "title": "DGMJR Docs",
+    "slug": "docs",
+    "repoUrl": "https://github.com/dgmjr-io/docs"
+  },
+  {
+    "name": "Dgmjr.Identity",
+    "title": "Identity",
+    "slug": "identity",
+    "repoUrl": "https://github.com/dgmjr-io/Identity.git"
+  },
+  {
+    "name": "Dgmjr.EntityFrameworkCore",
+    "title": "EntityFrameworkCore",
+    "slug": "efcore",
+    "repoUrl": "https://github.com/dgmjr-io/EntityFrameworkCore.git"
+  },
+  {
+    "name": "MSBuild",
+    "title": "MSBuild",
+    "slug": "msbuild",
+    "repoUrl": "https://github.com/dgmjr-io/MSBuild.git"
+  },
+  {
+    "name": "Node",
+    "title": "Node",
+    "slug": "node",
+    "repoUrl": "https://github.com/dgmjr-node/dgmjr-node.git"
+  },
+  {
+    "name": "SendPulse",
+    "title": "SendPulse",
+    "slug": "sendpulse",
+    "repoUrl": "https://github.com/dgmjr-io/SendPulse.git"
   }
 ]

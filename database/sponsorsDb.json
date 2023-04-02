@@ -7,5 +7,10 @@
   {
     "name": "John Wilkes Booth",
     "url": "https://ikilledlincoln.com"
+  },
+  {
+    "name": "Barack Hussein Obama",
+    "url": "barackobama.com",
+    "description": "The 43rd President of the United States"
   }
 ]

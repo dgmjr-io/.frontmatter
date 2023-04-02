@@ -1,0 +1,6 @@
+{
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "title": "MSBuild SDKs",
+    "path": "[[workspace]]/src/MSBuildSdks",
+    "excludeSubdir": false
+}
