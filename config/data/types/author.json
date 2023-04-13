@@ -1,64 +1,64 @@
 {
-  "$schema": "https://frontmatter.codes/config/data.types.schema.json",
   "$id": "https://github.com/dgmjr-io/root/.fontmatter/config/data/types/author.json",
+  "$schema": "https://frontmatter.codes/config/data.types.schema.json",
   "id": "author",
   "schema": {
-    "type": "object",
-    "title": "Author",
+    "properties": {
+      "avatar": {
+        "title": "Avatar",
+        "type": "string"
+      },
+      "bio": {
+        "title": "Biography",
+        "type": "string"
+      },
+      "email": {
+        "title": "Email",
+        "type": "string"
+      },
+      "first_name": {
+        "title": "First Name",
+        "type": "string"
+      },
+      "github": {
+        "title": "GitHub Username",
+        "type": "string"
+      },
+      "initials": {
+        "title": "Initials",
+        "type": "string"
+      },
+      "last_name": {
+        "title": "Last Name",
+        "type": "string"
+      },
+      "linkedin": {
+        "title": "LinkedIn URL",
+        "type": "string"
+      },
+      "name": {
+        "title": "Name",
+        "type": "string"
+      },
+      "slug": {
+        "title": "Slug",
+        "type": "string"
+      },
+      "twitter": {
+        "title": "Twitter Handle",
+        "type": "string"
+      },
+      "website": {
+        "title": "Website",
+        "type": "string"
+      }
+    },
     "required": [
       "name",
       "initials",
       "slug"
     ],
-    "properties": {
-      "first_name": {
-        "type": "string",
-        "title": "First Name"
-      },
-      "last_name": {
-        "type": "string",
-        "title": "Last Name"
-      },
-      "name": {
-        "type": "string",
-        "title": "Name"
-      },
-      "email": {
-        "type": "string",
-        "title": "Email"
-      },
-      "initials": {
-        "type": "string",
-        "title": "Initials"
-      },
-      "website": {
-        "type": "string",
-        "title": "Website"
-      },
-      "twitter": {
-        "type": "string",
-        "title": "Twitter Handle"
-      },
-      "github": {
-        "type": "string",
-        "title": "GitHub Username"
-      },
-      "linkedin": {
-        "type": "string",
-        "title": "LinkedIn URL"
-      },
-      "bio": {
-        "type": "string",
-        "title": "Biography"
-      },
-      "avatar": {
-        "type": "string",
-        "title": "Avatar"
-      },
-      "slug":{
-        "type":"string",
-        "title":"Slug"
-      }
-    }
+    "title": "Author",
+    "type": "object"
   }
 }
