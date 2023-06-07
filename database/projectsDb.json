@@ -64,5 +64,17 @@
     "title": "SendPulse",
     "slug": "sendpulse",
     "repoUrl": "https://github.com/dgmjr-io/SendPulse.git"
+  },
+  {
+    "name": "Telnet",
+    "title": "Telnet",
+    "slug": "telnet",
+    "repoUrl": "https://github.com/dgmjr-io/Telnet.git"
+  },
+  {
+    "name": "dgmjr-ps/Invoke-DotNetCli",
+    "title": "dgmjr-ps/Invoke-DotNetCli",
+    "slug": "dgmjr-ps/Invoke-DotNetCli",
+    "repoUrl": "https://github.com/dgmjr-ps/Invoke-DotNetCli.git"
   }
 ]

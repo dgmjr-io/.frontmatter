@@ -3,7 +3,7 @@ title: "README Template"
 description: "A template for my README files"
 date: 2023-03-19T02:54:50.647Z
 tags:
-  - Dgmjr
+  - DGMJR-IO
   - readme
   - templates
 categories:
@@ -249,4 +249,4 @@ Project Link: [https://github.com/dgmjr-io/repo_name](https://github.com/dgmjr-i
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com

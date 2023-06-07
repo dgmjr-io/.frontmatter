@@ -40,7 +40,7 @@
             "name": "license",
             "type": "dataFile",
             "dataFileId": "licenses",
-            "dataFileKey": "spdx",
+            "dataFileKey": "licenseId",
             "dataFileValue": "name",
             "single": true,
             "multiple": false
