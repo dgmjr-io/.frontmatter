@@ -1,1 +1,6 @@
-{"taxonomy":{"tags":["DGMJR","IP","MIT","ci/cd","commandline","copyright","deployment","dgmjr","license","msbuild","msbuild-sdk","readme","sdk"],"categories":["DGMJR","IP","copyright","documentation","license","msbuild","readme","sdk"]}}
+{
+  "taxonomy": {
+    "categories": [ "DGMJR", "IP", "copyright", "documentation", "license", "msbuild", "readme", "sdk" ],
+    "tags": [ "DGMJR", "IP", "MIT", "ci/cd", "commandline", "copyright", "deployment", "dgmjr", "license", "msbuild", "msbuild-sdk", "readme", "sdk" ]
+  }
+}
