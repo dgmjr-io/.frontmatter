@@ -100,7 +100,7 @@
                         ]
                     }
                 ],
-                "template": "[[workspace]]/.frontmatter/content/templates/default.md",
+                "template": "[[workspace]]/.frontmatter/templates/README.md",
                 "defaultFleName": "README.md"
             }
         ]

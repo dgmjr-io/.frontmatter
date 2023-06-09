@@ -70,17 +70,6 @@
             "type": "draft"
         },
         {
-            "title": "Keywords",
-            "name": "keywords",
-            "type": "taxonomy",
-            "taxonomyId": "keywords"
-        },
-        {
-            "title": "Categories",
-            "name": "categories",
-            "type": "categories"
-        },
-        {
             "title": "Slug",
             "name": "slug",
             "type": "slug",

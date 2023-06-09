@@ -3,42 +3,47 @@
     "$schema": "https://frontmatter.codes/config/data.types.schema.json",
     "id": "license",
     "schema": {
-        "type": "enum",
-        "items": {
-            "$ref": "#/definitions/licenses"
-        },
+        "title": "Licenses",
+        "type": "object",
         "properties": {
             "reference": {
+                "title": "URL for Humans",
                 "type": "string",
-                "description": "A human-readable HTML version of the license",
-                "format": "url"
+                "format": "uri"
             },
             "isDeprecatedLicenseId": {
-                "type": "boolean",
-                "description": "Whether the license is deprecated"
+                "title": "Is Deprecated",
+                "type": "boolean"
             },
             "detailsUrl": {
+                "title": "URL for Computers (JSON)",
                 "type": "string",
-                "description": "A URL to the license details in JSON format",
-                "format": "url"
+                "format": "uri"
+            },
+            "referenceNumber": {
+                "title": "Reference #",
+                "type": "integer"
+            },
+            "name": {
+                "title": "Name",
+                "type": "string"
             },
             "licenseId": {
-                "type": "string",
-                "description": "The SPDX identifier for the license"
+                "title": "SPDX ID",
+                "type": "string"
             },
             "seeAlso": {
+                "title": "See Also",
                 "type": "array",
-                "description": "A list of URLs to the license",
                 "items": {
                     "type": "string",
-                    "format": "url"
+                    "format": "uri"
                 }
+            },
+            "isDsiApproved": {
+                "title": "Is DSI Approved",
+                "type": "boolean"
             }
-        }
-    },
-    "definitions": {
-        "licenses": {
-            "$ref": "https://raw.githubusercontent.com/sourcemeta/schemas/main/vendor/spdx-3-20/json/licenses.json"
         }
     }
 }

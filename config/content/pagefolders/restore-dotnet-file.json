@@ -1,0 +1,6 @@
+{
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "$id":"https://dgmjr-actions.dgmjr.io/.frontmatter/config/content/pagefolders/restore-dotnet-file.json",
+    "title": "restore-dotnet-file",
+    "path": "[[workspace]]/restore-dotnet-file"
+}
