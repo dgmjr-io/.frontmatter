@@ -1,10 +1,8 @@
 {
-    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
-    "$id": "https://dgmjr-actions.docs.dgmjr.io/.frontmatter/config/content/pagefolders/download-a-file-using-dotnet-file.json",
-    "title": "Download a File using DotNet-File",
-    "path": "[[workspace]]/download-a-file-using-dotnet-file",
-    "excludeSubdir": false,
-    "contentTypes": [
-        "md"
-    ]
+  "$id": "https://dgmjr-actions.docs.dgmjr.io/.frontmatter/config/content/pagefolders/download-a-file-using-dotnet-file.json",
+  "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+  "contentTypes": [ "md" ],
+  "excludeSubdir": false,
+  "path": "[[workspace]]/download-a-file-using-dotnet-file",
+  "title": "Download a File using DotNet-File"
 }

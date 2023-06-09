@@ -1,12 +1,14 @@
 ---
+
 title: .frontmatter
 authors:
-  - dgmjr
+- dgmjr
 description: Configuration for the FrontMatter VSCode plug-in
 keywords:
-  - markdown
-  - frontmatter
----
+- markdown
+- frontmatter
+-------------
+
 # .frontmatter
 
 Configuration for the FrontMatter VSCode plug-in
