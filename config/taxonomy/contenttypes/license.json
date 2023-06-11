@@ -1,6 +1,6 @@
 {
     "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-    "$id": "https://github.com/dgmjr-io/dgmjr-io/.frontmatter/config/content/types/license.json",
+    "$id": "https://raw.githubusercontent.com/dgmjr-io/.frontmatter/main/config/content/types/license.json",
     "title": "License",
     "name": "license",
     "description": "A license for a project",

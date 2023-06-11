@@ -1,6 +1,6 @@
 {
     "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-    "$id": "https://github.com/dgmjr-io/root/.frontmatter/config/taxonomy/contenttypes/support.json",
+    "$id": "https://raw.githubusercontent.com/dgmjr-io/.frontmatter/main/config/taxonomy/contenttypes/support.json",
     "name": "support",
     "description": "A file showing how to get support",
     "fileType": "md",
@@ -25,6 +25,7 @@
         },
         {
             "title": "Authors",
+            "name":"authors",
             "type": "dataFile",
             "dataFileId": "authors",
             "dataFileKey": "slug",
@@ -34,7 +35,7 @@
         {
             "title": "Less important metadata",
             "name": "lessImportantMetadata",
-            "type": "separator"
+            "type": "divider"
         },
         {
             "title": "Publish date",

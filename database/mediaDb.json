@@ -1,13 +1,1 @@
-{
-    "filename": "../images/logo.png",
-    ".frontmatter": {
-        "assets": {
-            "images": {
-                "readme-icon.png": {
-                    "alt": "An icon for a README file",
-                    "title": "The Generic Icon for a README file"
-                }
-            }
-        }
-    }
-}
+{"filename":"../images/logo.png",".frontmatter":{"assets":{"images":{"readme-icon.png":{"alt":"An icon for a README file","title":"The Generic Icon for a README file"}}},"images":{"readme.png":{},"logo.png":{"title":" a Logo"}}}}
