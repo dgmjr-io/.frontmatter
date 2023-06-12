@@ -1,51 +1,46 @@
 {
-    "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-    "$id": "https://raw.githubusercontent.com/dgmjr-io/.frontmatter/main/config/content/types/license.json",
-    "title": "License",
+  "$id": "https://raw.githubusercontent.com/dgmjr-io/.frontmatter/main/config/content/types/license.json",
+  "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
+  "defaultFleName": "LICENSE.md",
+  "description": "A license for a project",
+  "fields": [ {
+    "multiple": false,
+    "name": "title",
+    "required": true,
+    "single": true,
+    "title": "Title",
+    "type": "string"
+  }, {
+    "default": "{{now}}",
+    "isPublishDate": true,
+    "multiple": false,
+    "name": "date",
+    "required": true,
+    "single": true,
+    "title": "Publish date",
+    "type": "datetime"
+  }, {
+    "default": "{{now}}",
+    "isModifiedDate": true,
+    "multiple": false,
+    "name": "lastmod",
+    "required": true,
+    "single": true,
+    "title": "Last Modified Date",
+    "type": "datetime"
+  }, {
+    "dataFileId": "licenses",
+    "dataFileKey": "licenseId",
+    "dataFileValue": "name",
+    "multiple": false,
     "name": "license",
-    "description": "A license for a project",
-    "pageBundle": false,
-    "previewPath": null,
-    "fields": [
-        {
-            "title": "Title",
-            "name": "title",
-            "type": "string",
-            "single": true,
-            "multiple": false,
-            "required": true
-        },
-        {
-            "title": "Publish date",
-            "name": "date",
-            "type": "datetime",
-            "default": "{{now}}",
-            "isPublishDate": true,
-            "single": true,
-            "multiple": false,
-            "required": true
-        },
-        {
-            "title": "Last Modified Date",
-            "name": "lastmod",
-            "type": "datetime",
-            "default": "{{now}}",
-            "isModifiedDate": true,
-            "single": true,
-            "multiple": false,
-            "required": true
-        },
-        {
-            "title": "License",
-            "name": "license",
-            "type": "dataFile",
-            "dataFileId": "licenses",
-            "dataFileKey": "licenseId",
-            "dataFileValue": "name",
-            "single": true,
-            "multiple": false
-        }
-    ],
-    "template": "[[workspace]]/.frontmatter/templates/LICENSE.md",
-    "defaultFleName": "LICENSE.md"
+    "single": true,
+    "title": "License",
+    "type": "dataFile"
+  } ],
+  "name": "license",
+  "pageBundle": false,
+  "previewPath": null,
+  "template": "[[workspace]]/.frontmatter/templates/LICENSE.md",
+  "title": "License"
 }
