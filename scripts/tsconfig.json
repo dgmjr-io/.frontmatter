@@ -1,0 +1,18 @@
+{
+    "$scheama": "https://json.schemastore.org/tsconfig",
+    "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/scripts/tsconfig.json",
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "include": [
+        "./**/*.ts"
+    ],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": ".",
+        "outDir": "./dist",
+        "resolveJsonModule": true
+    },
+    "exclude": [
+        "**/node_modules/**",
+        "**/dist/**"
+    ]
+}
