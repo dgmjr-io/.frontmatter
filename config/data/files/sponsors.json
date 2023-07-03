@@ -1,6 +1,6 @@
 {
   "$schema": "https://frontmatter.codes/config/data.files.schema.json",
-  "$id": "https://github.com/dgmjr-io/dgmjr-io/.frontmatter/config/data/files/projects.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/files/sponsors.json",
   "id": "sponsors",
   "title": "Sponsors",
   "file": "[[workspace]]/.frontMatter/database/sponsorsDb.json",

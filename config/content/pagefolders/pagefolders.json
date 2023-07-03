@@ -1,0 +1,14 @@
+{
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/content/pagefolders/pagefolders.json",
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "Download a File using DotNet-File",
+            "path": "[[workspace]]/download-a-file-using-dotnet-file",
+            "excludeSubdir": false,
+            "contentTypes": [
+                "md"
+            ]
+        }
+    ]
+}

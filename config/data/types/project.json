@@ -1,6 +1,6 @@
 {
   "$schema": "https://frontmatter.codes/config/data.types.schema.json",
-  "$id": "https://github.com/dgmjr-io/root/.fontmatter/config/data/types/project.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/types/project.json",
   "id": "project",
   "schema": {
     "title": "Project",
@@ -19,6 +19,10 @@
       "title": {
         "type": "string",
         "title": "Title"
+      },
+      "description": {
+        "type": "string",
+        "title": "Description"
       },
       "slug": {
         "type": "string",

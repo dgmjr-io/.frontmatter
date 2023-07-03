@@ -1,6 +1,6 @@
 {
     "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-    "$id": "https://raw.githubusercontent.com/dgmjr-io/.frontmatter/main/config/taxonomy/contenttypes/readme.json",
+    "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/readme.json",
     "name": "readme",
     "id": "readme",
     "description": "A readme file",
@@ -59,13 +59,13 @@
             "multiple": false
         },
         {
-            "title":"Version",
-            "dataType":"string",
+            "title": "Version",
+            "dataType": "string",
             "description": "The version of the package",
             "default": "0.0.0",
             "required": true,
-            "type":"string",
-            "name":"version"
+            "type": "string",
+            "name": "version"
         },
         {
             "title": "Less important metadata",
