@@ -1,94 +1,79 @@
-[
-  {
-    "title": "ASP.NET Core",
-    "slug": "aspnetcore",
-    "repoUrl": "https://github.com/dgmjr-io/AspNetCore.git",
-    "name": "Dgmjr.AspNetCore"
-  },
-  {
-    "name": "Dgmjr.Types",
-    "title": "Types",
-    "slug": "types",
-    "repoUrl": "https://github.com/dgmr-io/Type.git",
-    "description": "A repository of repositories containing various data types and source code generators."
-  },
-  {
-    "name": "Dgmjr.Actions",
-    "title": "Actions",
-    "slug": "dgmjr-actions",
-    "repoUrl": "https://github.com/dgmr-actions/dgmjr-actions.git",
-    "description": "Where I keep all of my public reusable workflows"
-  },
-  {
-    "name": "DGMJR.IO",
-    "title": "DGMJR.IO",
-    "slug": "dgmjr-io",
-    "repoUrl": "https://github.com/dgmjr-io/dgmjr-io.git",
-    "description": "This is a repository from which all of my other public repositories branch."
-  },
-  {
-    "name": ".github",
-    "title": ".github",
-    "slug": ".github",
-    "repoUrl": "https://github.com/dgmjr-io/.github",
-    "description": "This is where I keep all of the common items to my projects."
-  },
-  {
-    "name": "Dgmjr.Docs",
-    "title": "DGMJR Docs",
-    "slug": "docs",
-    "repoUrl": "https://github.com/dgmjr-io/docs",
-    "description": "This is where alllllll of the DGMJR-IO documentation lives!"
-  },
-  {
-    "name": "Dgmjr.Identity",
-    "title": "Identity",
-    "slug": "identity",
-    "repoUrl": "https://github.com/dgmjr-io/Identity.git"
-  },
-  {
-    "name": "Dgmjr.EntityFrameworkCore",
-    "title": "EntityFrameworkCore",
-    "slug": "efcore",
-    "repoUrl": "https://github.com/dgmjr-io/EntityFrameworkCore.git",
-    "description": "Contains abstractions, extensions, and classes for working with EntityFrameworkCore."
-  },
-  {
-    "name": "MSBuildTools",
-    "title": "MSBuild Tools",
-    "slug": "msbuild",
-    "repoUrl": "https://github.com/dgmjr-io/MSBuild.git",
-    "description": "A repository of tasks and extensions for MSBuild"
-  },
-  {
-    "name": "Node",
-    "title": "Node",
-    "slug": "node",
-    "repoUrl": "https://github.com/dgmjr-node/dgmjr-node.git"
-  },
-  {
-    "name": "SendPulse",
-    "title": "SendPulse",
-    "slug": "sendpulse",
-    "repoUrl": "https://github.com/dgmjr-io/SendPulse.git",
-    "description": "Contains code for interacting with the SendPulse chatbot APIs"
-  },
-  {
-    "name": "Telegram",
-    "title": "Telegram",
-    "slug": "telegram",
-    "repoUrl": "https://github.com/dgmjr-io/Telegram.git"
-  },
-  {
-    "name": "dgmjr-ps/Invoke-DotNetCli",
-    "title": "dgmjr-ps/Invoke-DotNetCli",
-    "slug": "dgmjr-ps/Invoke-DotNetCli",
-    "repoUrl": "https://github.com/dgmjr-ps/Invoke-DotNetCli.git"
-  },
-  {
-    "name": "Shared",
-    "title": "Shared",
-    "slug": "shared",
-    "repoUrl": "https://github.com/dgmjr-io/Shared.git"
-  }
-]
+[ {
+  "name": "Dgmjr.AspNetCore",
+  "repoUrl": "https://github.com/dgmjr-io/AspNetCore.git",
+  "slug": "aspnetcore",
+  "title": "ASP.NET Core"
+}, {
+  "description": "A repository of repositories containing various data types and source code generators.",
+  "name": "Dgmjr.Types",
+  "repoUrl": "https://github.com/dgmr-io/Type.git",
+  "slug": "types",
+  "title": "Types"
+}, {
+  "description": "Where I keep all of my public reusable workflows",
+  "name": "Dgmjr.Actions",
+  "repoUrl": "https://github.com/dgmr-actions/dgmjr-actions.git",
+  "slug": "dgmjr-actions",
+  "title": "Actions"
+}, {
+  "description": "This is a repository from which all of my other public repositories branch.",
+  "name": "DGMJR.IO",
+  "repoUrl": "https://github.com/dgmjr-io/dgmjr-io.git",
+  "slug": "dgmjr-io",
+  "title": "DGMJR.IO"
+}, {
+  "description": "This is where I keep all of the common items to my projects.",
+  "name": ".github",
+  "repoUrl": "https://github.com/dgmjr-io/.github",
+  "slug": ".github",
+  "title": ".github"
+}, {
+  "description": "This is where alllllll of the DGMJR-IO documentation lives!",
+  "name": "Dgmjr.Docs",
+  "repoUrl": "https://github.com/dgmjr-io/docs",
+  "slug": "docs",
+  "title": "DGMJR Docs"
+}, {
+  "name": "Dgmjr.Identity",
+  "repoUrl": "https://github.com/dgmjr-io/Identity.git",
+  "slug": "identity",
+  "title": "Identity"
+}, {
+  "description": "Contains abstractions, extensions, and classes for working with EntityFrameworkCore.",
+  "name": "Dgmjr.EntityFrameworkCore",
+  "repoUrl": "https://github.com/dgmjr-io/EntityFrameworkCore.git",
+  "slug": "efcore",
+  "title": "EntityFrameworkCore"
+}, {
+  "description": "A repository of tasks and extensions for MSBuild",
+  "name": "MSBuildTools",
+  "repoUrl": "https://github.com/dgmjr-io/MSBuild.git",
+  "slug": "msbuild",
+  "title": "MSBuild Tools"
+}, {
+  "name": "Node",
+  "repoUrl": "https://github.com/dgmjr-node/dgmjr-node.git",
+  "slug": "node",
+  "title": "Node"
+}, {
+  "description": "Contains code for interacting with the SendPulse chatbot APIs",
+  "name": "SendPulse",
+  "repoUrl": "https://github.com/dgmjr-io/SendPulse.git",
+  "slug": "sendpulse",
+  "title": "SendPulse"
+}, {
+  "name": "Telegram",
+  "repoUrl": "https://github.com/dgmjr-io/Telegram.git",
+  "slug": "telegram",
+  "title": "Telegram"
+}, {
+  "name": "dgmjr-ps/Invoke-DotNetCli",
+  "repoUrl": "https://github.com/dgmjr-ps/Invoke-DotNetCli.git",
+  "slug": "dgmjr-ps/Invoke-DotNetCli",
+  "title": "dgmjr-ps/Invoke-DotNetCli"
+}, {
+  "name": "Shared",
+  "repoUrl": "https://github.com/dgmjr-io/Shared.git",
+  "slug": "shared",
+  "title": "Shared"
+} ]

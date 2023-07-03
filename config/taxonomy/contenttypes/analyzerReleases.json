@@ -1,42 +1,38 @@
 {
-    "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-    "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/analyzerReleases.json",
-    "title": "Analyser Releases",
-    "name": "AnalyzerReleases",
-    "description": "A list of the diagnostics which a code analyzer might emit",
-    "pageBundle": false,
-    "previewPath": null,
-    "fields": [
-        {
-            "title": "Title",
-            "name": "title",
-            "type": "string",
-            "single": true,
-            "multiple": false,
-            "required": true,
-            "default": "AnalyzerReleases.Shipped.md"
-        },
-        {
-            "title": "Publish date",
-            "name": "date",
-            "type": "datetime",
-            "default": "{{now}}",
-            "isPublishDate": true,
-            "single": true,
-            "multiple": false,
-            "required": true
-        },
-        {
-            "title": "Last Modified Date",
-            "name": "lastmod",
-            "type": "datetime",
-            "default": "{{now}}",
-            "isModifiedDate": true,
-            "single": true,
-            "multiple": false,
-            "required": true
-        }
-    ],
-    "template": "[[workspace]]/.frontmatter/templates/AnalyzerReleases.md",
-    "defaultFleName": "LICENSE.md"
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/analyzerReleases.json",
+  "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
+  "defaultFleName": "LICENSE.md",
+  "description": "A list of the diagnostics which a code analyzer might emit",
+  "fields": [ {
+    "default": "AnalyzerReleases.Shipped.md",
+    "multiple": false,
+    "name": "title",
+    "required": true,
+    "single": true,
+    "title": "Title",
+    "type": "string"
+  }, {
+    "default": "{{now}}",
+    "isPublishDate": true,
+    "multiple": false,
+    "name": "date",
+    "required": true,
+    "single": true,
+    "title": "Publish date",
+    "type": "datetime"
+  }, {
+    "default": "{{now}}",
+    "isModifiedDate": true,
+    "multiple": false,
+    "name": "lastmod",
+    "required": true,
+    "single": true,
+    "title": "Last Modified Date",
+    "type": "datetime"
+  } ],
+  "name": "AnalyzerReleases",
+  "pageBundle": false,
+  "previewPath": null,
+  "template": "[[workspace]]/.frontmatter/templates/AnalyzerReleases.md",
+  "title": "Analyser Releases"
 }

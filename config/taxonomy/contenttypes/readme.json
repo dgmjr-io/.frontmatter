@@ -1,121 +1,107 @@
 {
-    "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-    "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/readme.json",
-    "name": "readme",
-    "id": "readme",
-    "description": "A readme file",
-    "fileType": "md",
-    "pageBundle": false,
-    "defaultFileName": "README.md",
-    "fields": [
-        {
-            "title": "Title",
-            "name": "title",
-            "description": "The title of the readme file",
-            "type": "string",
-            "single": true,
-            "required": true,
-            "multiple": false
-        },
-        {
-            "title": "Project",
-            "name": "project",
-            "description": "The project this readme file belongs to",
-            "type": "dataFile",
-            "dataFileId": "projects",
-            "dataFileKey": "name",
-            "dataFileValue": "name",
-            "single": true,
-            "required": true
-        },
-        {
-            "title": "Description",
-            "name": "description",
-            "description": "A short description of the project",
-            "type": "string",
-            "single": false,
-            "required": true,
-            "multiple": false
-        },
-        {
-            "title": "Authors",
-            "name": "authors",
-            "type": "dataFile",
-            "dataFileId": "authors",
-            "dataFileKey": "github",
-            "dataFileValue": "name",
-            "multiple": true
-        },
-        {
-            "title": "License",
-            "description": "The license this project is released under",
-            "dataType": "license",
-            "name": "license",
-            "type": "dataFile",
-            "dataFileId": "licenses",
-            "dataFileKey": "licenseId",
-            "dataFileValue": "name",
-            "single": true,
-            "multiple": false
-        },
-        {
-            "title": "Version",
-            "dataType": "string",
-            "description": "The version of the package",
-            "default": "0.0.0",
-            "required": true,
-            "type": "string",
-            "name": "version"
-        },
-        {
-            "title": "Less important metadata",
-            "description": "This is a section that contains less important metadata",
-            "name": "sectionTitleWithDescription",
-            "type": "heading"
-        },
-        {
-            "title": "Is in draft",
-            "name": "draft",
-            "type": "draft"
-        },
-        {
-            "title": "Slug",
-            "name": "slug",
-            "type": "slug",
-            "single": true,
-            "required": true,
-            "default": "{{slug}}"
-        },
-        {
-            "title": "Dates Section",
-            "name": "dates",
-            "type": "divider"
-        },
-        {
-            "title": "Publish date",
-            "name": "date",
-            "type": "datetime",
-            "default": "{{now}}",
-            "isPublishDate": true,
-            "single": true,
-            "required": true
-        },
-        {
-            "title": "Last Modified Date",
-            "name": "lastmod",
-            "type": "datetime",
-            "default": "{{now}}",
-            "isModifiedDate": true,
-            "single": true,
-            "required": true
-        },
-        {
-            "title": "Content preview",
-            "name": "preview",
-            "type": "image",
-            "single": true,
-            "required": false,
-            "isPreviewImage": true
-        }
-    ]
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/readme.json",
+  "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
+  "defaultFileName": "README.md",
+  "description": "A readme file",
+  "fields": [ {
+    "description": "The title of the readme file",
+    "multiple": false,
+    "name": "title",
+    "required": true,
+    "single": true,
+    "title": "Title",
+    "type": "string"
+  }, {
+    "dataFileId": "projects",
+    "dataFileKey": "name",
+    "dataFileValue": "name",
+    "description": "The project this readme file belongs to",
+    "name": "project",
+    "required": true,
+    "single": true,
+    "title": "Project",
+    "type": "dataFile"
+  }, {
+    "description": "A short description of the project",
+    "multiple": false,
+    "name": "description",
+    "required": true,
+    "single": false,
+    "title": "Description",
+    "type": "string"
+  }, {
+    "dataFileId": "authors",
+    "dataFileKey": "github",
+    "dataFileValue": "name",
+    "multiple": true,
+    "name": "authors",
+    "title": "Authors",
+    "type": "dataFile"
+  }, {
+    "dataFileId": "licenses",
+    "dataFileKey": "licenseId",
+    "dataFileValue": "name",
+    "dataType": "license",
+    "description": "The license this project is released under",
+    "multiple": false,
+    "name": "license",
+    "single": true,
+    "title": "License",
+    "type": "dataFile"
+  }, {
+    "dataType": "string",
+    "default": "0.0.0",
+    "description": "The version of the package",
+    "name": "version",
+    "required": true,
+    "title": "Version",
+    "type": "string"
+  }, {
+    "description": "This is a section that contains less important metadata",
+    "name": "sectionTitleWithDescription",
+    "title": "Less important metadata",
+    "type": "heading"
+  }, {
+    "name": "draft",
+    "title": "Is in draft",
+    "type": "draft"
+  }, {
+    "default": "{{slug}}",
+    "name": "slug",
+    "required": true,
+    "single": true,
+    "title": "Slug",
+    "type": "slug"
+  }, {
+    "name": "dates",
+    "title": "Dates Section",
+    "type": "divider"
+  }, {
+    "default": "{{now}}",
+    "isPublishDate": true,
+    "name": "date",
+    "required": true,
+    "single": true,
+    "title": "Publish date",
+    "type": "datetime"
+  }, {
+    "default": "{{now}}",
+    "isModifiedDate": true,
+    "name": "lastmod",
+    "required": true,
+    "single": true,
+    "title": "Last Modified Date",
+    "type": "datetime"
+  }, {
+    "isPreviewImage": true,
+    "name": "preview",
+    "required": false,
+    "single": true,
+    "title": "Content preview",
+    "type": "image"
+  } ],
+  "fileType": "md",
+  "id": "readme",
+  "name": "readme",
+  "pageBundle": false
 }

@@ -1,102 +1,72 @@
 {
-    "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-    "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/support.json",
-    "name": "support",
-    "description": "A file showing how to get support",
-    "fileType": "md",
-    "pageBundle": false,
-    "defaultFileName": "SUPPPORT.md",
-    "fields": [
-        {
-            "title": "Title",
-            "name": "title",
-            "description": "The title of the readme file",
-            "type": "string",
-            "single": true,
-            "required": true
-        },
-        {
-            "title": "Description",
-            "name": "description",
-            "description": "A short description of the project",
-            "type": "string",
-            "single": false,
-            "required": true
-        },
-        {
-            "title": "Authors",
-            "name": "authors",
-            "type": "dataFile",
-            "dataFileId": "authors",
-            "dataFileKey": "slug",
-            "dataFileValue": "name",
-            "multiple": true
-        },
-        {
-            "title": "Less important metadata",
-            "name": "lessImportantMetadata",
-            "type": "divider"
-        },
-        {
-            "title": "Publish date",
-            "name": "date",
-            "type": "datetime",
-            "default": "{{now}}",
-            "isPublishDate": true,
-            "single": true,
-            "required": true
-        },
-        {
-            "title": "Last Modified Date",
-            "name": "lastmod",
-            "type": "datetime",
-            "default": "{{now}}",
-            "isModifiedDate": true,
-            "single": true,
-            "required": true
-        },
-        {
-            "title": "Is in draft",
-            "name": "draft",
-            "type": "draft"
-        },
-        {
-            "title": "Categories",
-            "name": "categories",
-            "type": "categories"
-        },
-        {
-            "title": "Slug",
-            "name": "slug",
-            "type": "slug",
-            "single": true,
-            "required": true,
-            "default": "{{slug}}"
-        },
-        {
-            "title": "License",
-            "name": "license",
-            "type": "choice",
-            "choices": [
-                "agpl-3.0",
-                "apache-2.0",
-                "artistic-2.0",
-                "bsl-1.0",
-                "cc0-1.0",
-                "epl-2.0",
-                "gpl-3.0",
-                "isc",
-                "lgpl-3.0",
-                "mit",
-                "mpl-2.0",
-                "ncsa",
-                "nokia",
-                "ofl-1.1",
-                "osl-3.0",
-                "sugarcrm-1.1.3",
-                "unlicense",
-                "wtfpl"
-            ]
-        }
-    ]
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/support.json",
+  "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
+  "defaultFileName": "SUPPPORT.md",
+  "description": "A file showing how to get support",
+  "fields": [ {
+    "description": "The title of the readme file",
+    "name": "title",
+    "required": true,
+    "single": true,
+    "title": "Title",
+    "type": "string"
+  }, {
+    "description": "A short description of the project",
+    "name": "description",
+    "required": true,
+    "single": false,
+    "title": "Description",
+    "type": "string"
+  }, {
+    "dataFileId": "authors",
+    "dataFileKey": "slug",
+    "dataFileValue": "name",
+    "multiple": true,
+    "name": "authors",
+    "title": "Authors",
+    "type": "dataFile"
+  }, {
+    "name": "lessImportantMetadata",
+    "title": "Less important metadata",
+    "type": "divider"
+  }, {
+    "default": "{{now}}",
+    "isPublishDate": true,
+    "name": "date",
+    "required": true,
+    "single": true,
+    "title": "Publish date",
+    "type": "datetime"
+  }, {
+    "default": "{{now}}",
+    "isModifiedDate": true,
+    "name": "lastmod",
+    "required": true,
+    "single": true,
+    "title": "Last Modified Date",
+    "type": "datetime"
+  }, {
+    "name": "draft",
+    "title": "Is in draft",
+    "type": "draft"
+  }, {
+    "name": "categories",
+    "title": "Categories",
+    "type": "categories"
+  }, {
+    "default": "{{slug}}",
+    "name": "slug",
+    "required": true,
+    "single": true,
+    "title": "Slug",
+    "type": "slug"
+  }, {
+    "choices": [ "agpl-3.0", "apache-2.0", "artistic-2.0", "bsl-1.0", "cc0-1.0", "epl-2.0", "gpl-3.0", "isc", "lgpl-3.0", "mit", "mpl-2.0", "ncsa", "nokia", "ofl-1.1", "osl-3.0", "sugarcrm-1.1.3", "unlicense", "wtfpl" ],
+    "name": "license",
+    "title": "License",
+    "type": "choice"
+  } ],
+  "fileType": "md",
+  "name": "support",
+  "pageBundle": false
 }
