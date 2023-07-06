@@ -1,49 +1,49 @@
 {
-    "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/types/license.json",
-    "$schema": "https://frontmatter.codes/config/data.types.schema.json",
-    "id": "license",
-    "schema": {
-        "title": "Licenses",
-        "type": "object",
-        "properties": {
-            "reference": {
-                "title": "URL for Humans",
-                "type": "string",
-                "format": "uri"
-            },
-            "isDeprecatedLicenseId": {
-                "title": "Is Deprecated",
-                "type": "boolean"
-            },
-            "detailsUrl": {
-                "title": "URL for Computers (JSON)",
-                "type": "string",
-                "format": "uri"
-            },
-            "referenceNumber": {
-                "title": "Reference #",
-                "type": "integer"
-            },
-            "name": {
-                "title": "Name",
-                "type": "string"
-            },
-            "licenseId": {
-                "title": "SPDX ID",
-                "type": "string"
-            },
-            "seeAlso": {
-                "title": "See Also",
-                "type": "array",
-                "items": {
-                    "type": "string",
-                    "format": "uri"
-                }
-            },
-            "isDsiApproved": {
-                "title": "Is DSI Approved",
-                "type": "boolean"
-            }
-        }
-    }
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/types/license.json",
+  "$schema": "https://frontmatter.codes/config/data.types.schema.json",
+  "id": "license",
+  "schema": {
+    "properties": {
+      "detailsUrl": {
+        "format": "uri",
+        "title": "URL for Computers (JSON)",
+        "type": "string"
+      },
+      "isDeprecatedLicenseId": {
+        "title": "Is Deprecated",
+        "type": "boolean"
+      },
+      "isDsiApproved": {
+        "title": "Is DSI Approved",
+        "type": "boolean"
+      },
+      "licenseId": {
+        "title": "SPDX ID",
+        "type": "string"
+      },
+      "name": {
+        "title": "Name",
+        "type": "string"
+      },
+      "reference": {
+        "format": "uri",
+        "title": "URL for Humans",
+        "type": "string"
+      },
+      "referenceNumber": {
+        "title": "Reference #",
+        "type": "integer"
+      },
+      "seeAlso": {
+        "items": {
+          "format": "uri",
+          "type": "string"
+        },
+        "title": "See Also",
+        "type": "array"
+      }
+    },
+    "title": "Licenses",
+    "type": "object"
+  }
 }

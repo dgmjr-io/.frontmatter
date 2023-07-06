@@ -53,11 +53,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "name",
-      "initials",
-      "slug"
-    ],
+    "required": [ "name", "initials", "slug" ],
     "title": "Author",
     "type": "object"
   }
