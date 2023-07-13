@@ -1,6 +1,6 @@
 {
-  "$schema": "https://json.schemastore.org/package.json",
   "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/scripts/package.json",
+  "$schema": "https://json.schemastore.org/package.json",
   "devDependencies": {
     "@tsconfig/node16": "^1.0.4"
   }
