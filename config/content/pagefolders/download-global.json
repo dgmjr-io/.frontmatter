@@ -1,6 +1,0 @@
-{
-  "$id": "https://dgmjr-actions.dgmjr.io/.frontmatter/config/content/pagefolders/download-global.json",
-  "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
-  "path": "[[workspace]]/download-global.json",
-  "title": "Download Global.json"
-}
