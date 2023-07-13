@@ -41,6 +41,6 @@
   "name": "license",
   "pageBundle": false,
   "previewPath": null,
-  "template": "[[workspace]]/.frontmatter/templates/LICENSE.md",
+  "template": "[[workspace]]/.frontmatter/templates/MITLICENSE.md",
   "title": "License"
 }

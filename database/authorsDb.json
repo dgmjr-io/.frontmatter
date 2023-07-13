@@ -26,5 +26,19 @@
     "bio": "John Wilkes Booth was an American actor who assassinated President Abraham Lincoln at Ford's Theatre in Washington, D.C., on April 14, 1865.",
     "slug": "jwb",
     "avatar": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQk4wYwz4WBWACS8vtAs-R5L2sYmz3EwRvpcqdQ3gHXnQ3b9Z2MEpi165-bJjm9YxGqDqpM4rnwmOoJYi4"
+  },
+  {
+    "initials": "unattributed",
+    "name": "Unattributed",
+    "email": "unattributed@dgmjr.io",
+    "first_name": "No",
+    "last_name": "One",
+    "website": "https://nowhere.com",
+    "github": "unattributed",
+    "twitter": "",
+    "linkedin": "",
+    "bio": "This file has not been attributed to any author as of yet.",
+    "slug": "jwb",
+    "avatar": "https://st3.depositphotos.com/12985790/18246/i/450/depositphotos_182461084-stock-photo-anonymous.jpg"
   }
 ]

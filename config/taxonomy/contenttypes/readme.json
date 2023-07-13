@@ -13,7 +13,7 @@
     "type": "string"
   }, {
     "dataFileId": "projects",
-    "dataFileKey": "name",
+    "dataFileKey": "slug",
     "dataFileValue": "name",
     "description": "The project this readme file belongs to",
     "name": "project",
