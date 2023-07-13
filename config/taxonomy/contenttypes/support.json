@@ -1,5 +1,5 @@
 {
-  "$id": "https://raw.githubusercontent.com/dgmjr-io/.frontmatter/main/config/taxonomy/contenttypes/support.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/support.json",
   "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
   "defaultFileName": "SUPPPORT.md",
   "description": "A file showing how to get support",

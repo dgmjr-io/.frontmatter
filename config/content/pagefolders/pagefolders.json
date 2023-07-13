@@ -1,0 +1,33 @@
+{
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/content/pagefolders/pagefolders.json",
+  [ {
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "contentTypes": [ "md" ],
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims/Abstractions"
+  },
+  {
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "contentTypes": [ "md" ],
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims/ClaimTypes"
+  },
+  {
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "contentTypes": [ "md" ],
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims/ClaimValueTypes"
+  },
+  {
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "contentTypes": [ "md" ],
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims/Jwt"
+  },
+  {
+    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
+    "contentTypes": [ "md" ],
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims"
+  } ]
+}

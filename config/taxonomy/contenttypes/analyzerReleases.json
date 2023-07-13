@@ -1,9 +1,10 @@
 {
-  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/license.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/analyzerReleases.json",
   "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
   "defaultFleName": "LICENSE.md",
-  "description": "A license for a project",
+  "description": "A list of the diagnostics which a code analyzer might emit",
   "fields": [ {
+    "default": "AnalyzerReleases.Shipped.md",
     "multiple": false,
     "name": "title",
     "required": true,
@@ -28,19 +29,10 @@
     "single": true,
     "title": "Last Modified Date",
     "type": "datetime"
-  }, {
-    "dataFileId": "licenses",
-    "dataFileKey": "licenseId",
-    "dataFileValue": "name",
-    "multiple": false,
-    "name": "license",
-    "single": true,
-    "title": "License",
-    "type": "dataFile"
   } ],
-  "name": "license",
+  "name": "AnalyzerReleases",
   "pageBundle": false,
   "previewPath": null,
-  "template": "[[workspace]]/.frontmatter/templates/LICENSE.md",
-  "title": "License"
+  "template": "[[workspace]]/.frontmatter/templates/AnalyzerReleases.md",
+  "title": "Analyser Releases"
 }

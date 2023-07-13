@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/dgmjr-io/root/.fontmatter/config/data/types/author.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/types/author.json",
   "$schema": "https://frontmatter.codes/config/data.types.schema.json",
   "id": "author",
   "schema": {
@@ -53,11 +53,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "name",
-      "initials",
-      "slug"
-    ],
+    "required": [ "name", "initials", "slug" ],
     "title": "Author",
     "type": "object"
   }

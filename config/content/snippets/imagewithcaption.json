@@ -1,6 +1,6 @@
- {
-    "$schema":"https://frontmatter.codes/config/content.snippets.schema.json",
-    "$id":"https://github.com/dgmjr-io/dgmj-io/.frontmatter/config/content/snippets/imagewithcaption.json",
+{
+    "$schema": "https://frontmatter.codes/config/content.snippets.schema.json",
+    "$id": "https://github.com/dgmjr-io/dgmj-io/.frontmatter/config/content/snippets/imagewithcaption.json",
     {
         "title": "Image snippet",
         "description": "Image with caption",
@@ -8,15 +8,15 @@
         "isMediaSnippet": true,
         "fields": [
             {
-                "name": "className" ,
+                "name": "className",
                 "title": "Class name",
                 "type": "string",
                 "default": "image__caption"
             },
             {
-                "name":"mediaUrl",
-                "title":"Media URL",
-                "type":"string"
+                "name": "mediaUrl",
+                "title": "Media URL",
+                "type": "string"
             }
         ]
     }

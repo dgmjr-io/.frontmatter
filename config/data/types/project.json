@@ -1,33 +1,32 @@
 {
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/types/project.json",
   "$schema": "https://frontmatter.codes/config/data.types.schema.json",
-  "$id": "https://github.com/dgmjr-io/root/.fontmatter/config/data/types/project.json",
   "id": "project",
   "schema": {
-    "title": "Project",
-    "type": "object",
-    "required": [
-      "name",
-      "slug",
-      "title",
-      "repoUrl"
-    ],
     "properties": {
+      "description": {
+        "title": "Description",
+        "type": "string"
+      },
       "name": {
-        "type": "string",
-        "title": "Name"
-      },
-      "title": {
-        "type": "string",
-        "title": "Title"
-      },
-      "slug": {
-        "type": "string",
-        "title": "slug"
+        "title": "Name",
+        "type": "string"
       },
       "repoUrl": {
-        "type": "string",
-        "title": "Repository URL"
+        "title": "Repository URL",
+        "type": "string"
+      },
+      "slug": {
+        "title": "slug",
+        "type": "string"
+      },
+      "title": {
+        "title": "Title",
+        "type": "string"
       }
-    }
+    },
+    "required": [ "name", "slug", "title", "repoUrl" ],
+    "title": "Project",
+    "type": "object"
   }
 }

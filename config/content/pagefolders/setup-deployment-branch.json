@@ -1,7 +1,0 @@
-{
-    "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
-    "$id": "https://dgmjr-actions.docs.dgmjr.io/.frontmatter/config/content/pagefolders/setup-deployment-branch.json",
-    "title": "Setup Deployment Branch",
-    "path": "[[workspace]]/setup-deployment-branch",
-    "excludeSubdir": true
-}

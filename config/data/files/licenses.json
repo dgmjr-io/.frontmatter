@@ -1,10 +1,10 @@
 {
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/files/licenses.json",
   "$schema": "https://frontmatter.codes/config/data.files.schema.json",
-  "$id": "https://github.com/dgmjr-io/dgmjr-io/.frontmatter/config/data/files/licenses.json",
-  "id": "licenses",
-  "title": "Licenses",
   "file": "[[workspace]]/.frontmatter/database/licensesDb.json",
   "fileType": "json",
+  "id": "licenses",
   "labelField": "name",
+  "title": "Licenses",
   "type": "license"
 }
