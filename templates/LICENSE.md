@@ -1,5 +1,4 @@
 ---
-
 authors:
 - dgmjr
 title: The MIT License
@@ -13,7 +12,6 @@ keywords:
 description: The MIT License
 date: {{now}}
 slug: mit-license
-
 ---
 
 # MIT License
