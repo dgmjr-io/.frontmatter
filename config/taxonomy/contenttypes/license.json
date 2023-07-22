@@ -3,44 +3,49 @@
   "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
   "defaultFleName": "LICENSE.md",
   "description": "A license for a project",
-  "fields": [ {
-    "multiple": false,
-    "name": "title",
-    "required": true,
-    "single": true,
-    "title": "Title",
-    "type": "string"
-  }, {
-    "default": "{{now}}",
-    "isPublishDate": true,
-    "multiple": false,
-    "name": "date",
-    "required": true,
-    "single": true,
-    "title": "Publish date",
-    "type": "datetime"
-  }, {
-    "default": "{{now}}",
-    "isModifiedDate": true,
-    "multiple": false,
-    "name": "lastmod",
-    "required": true,
-    "single": true,
-    "title": "Last Modified Date",
-    "type": "datetime"
-  }, {
-    "dataFileId": "licenses",
-    "dataFileKey": "licenseId",
-    "dataFileValue": "name",
-    "multiple": false,
-    "name": "license",
-    "single": true,
-    "title": "License",
-    "type": "dataFile"
-  } ],
+  "fields": [
+    {
+      "multiple": false,
+      "name": "title",
+      "required": true,
+      "single": true,
+      "title": "Title",
+      "type": "string"
+    },
+    {
+      "default": "{{now}}",
+      "isPublishDate": true,
+      "multiple": false,
+      "name": "date",
+      "required": true,
+      "single": true,
+      "title": "Publish date",
+      "type": "datetime"
+    },
+    {
+      "default": "{{now}}",
+      "isModifiedDate": true,
+      "multiple": false,
+      "name": "lastmod",
+      "required": true,
+      "single": true,
+      "title": "Last Modified Date",
+      "type": "datetime"
+    },
+    {
+      "dataFileId": "licenses",
+      "dataFileKey": "licenseId",
+      "dataFileValue": "name",
+      "multiple": false,
+      "name": "license",
+      "single": true,
+      "title": "License",
+      "type": "dataFile"
+    }
+  ],
   "name": "license",
   "pageBundle": false,
   "previewPath": null,
-  "template": "[[workspace]]/.frontmatter/templates/LICENSE.md",
+  "template": "[[workspace]]/.frontmatter/templates/MITLICENSE.md",
   "title": "License"
 }

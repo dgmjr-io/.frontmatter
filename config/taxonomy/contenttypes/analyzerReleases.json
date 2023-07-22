@@ -1,38 +1,42 @@
 {
   "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/analyzerReleases.json",
   "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
-  "defaultFleName": "LICENSE.md",
-  "description": "A list of the diagnostics which a code analyzer might emit",
-  "fields": [ {
-    "default": "AnalyzerReleases.Shipped.md",
-    "multiple": false,
-    "name": "title",
-    "required": true,
-    "single": true,
-    "title": "Title",
-    "type": "string"
-  }, {
-    "default": "{{now}}",
-    "isPublishDate": true,
-    "multiple": false,
-    "name": "date",
-    "required": true,
-    "single": true,
-    "title": "Publish date",
-    "type": "datetime"
-  }, {
-    "default": "{{now}}",
-    "isModifiedDate": true,
-    "multiple": false,
-    "name": "lastmod",
-    "required": true,
-    "single": true,
-    "title": "Last Modified Date",
-    "type": "datetime"
-  } ],
+  "fields": [
+    {
+      "default": "AnalyzerReleases.Shipped.md",
+      "multiple": false,
+      "name": "title",
+      "required": true,
+      "single": true,
+      "title": "Title",
+      "type": "string"
+    },
+    {
+      "default": "{{now}}",
+      "isPublishDate": true,
+      "multiple": false,
+      "name": "date",
+      "required": true,
+      "single": true,
+      "title": "Publish date",
+      "type": "datetime"
+    },
+    {
+      "default": "{{now}}",
+      "isModifiedDate": true,
+      "multiple": false,
+      "name": "lastmod",
+      "required": true,
+      "single": true,
+      "title": "Last Modified Date",
+      "type": "datetime"
+    }
+  ],
   "name": "AnalyzerReleases",
   "pageBundle": false,
   "previewPath": null,
   "template": "[[workspace]]/.frontmatter/templates/AnalyzerReleases.md",
-  "title": "Analyser Releases"
+  "title": "Analyser Releases",
+  "fileType": "md",
+  "defaultFileName": "AnalyzerReleases.md"
 }
