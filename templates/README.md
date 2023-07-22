@@ -1,5 +1,4 @@
 ---
-
 title: README.md
 authors:
 - dgmjr
@@ -8,6 +7,5 @@ keywords:
 - github actions
 - ci/cd
 date: {{now}}
-
 ---
 
