@@ -1,5 +1,4 @@
 ---
-
 title: README Template
 description: A template for my README files
 date: 2023-06-09T02:51:02.578Z
@@ -19,7 +18,7 @@ license: MIT
 lastmod: 2023-06-09T02:50:58.434Z
 authors:
 - dgmjr
--------
+--
 
 # Title
 
