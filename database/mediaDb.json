@@ -1,19 +1,64 @@
 {
-  ".frontmatter": {
-    "assets": {
-      "images": {
-        "readme-icon.png": {
-          "alt": "An icon for a README file",
-          "title": "The Generic Icon for a README file"
+    ".frontmatter": {
+        "assets": {
+            "images": {
+                "readme-icon.png": {
+                    "alt": "An icon for a README file",
+                    "title": "The Generic Icon for a README file"
+                }
+            }
+        },
+        "images": {
+            "logo.png": {
+                "title": " a Logo"
+            },
+            "readme.png": {}
         }
-      }
     },
-    "images": {
-      "logo.png": {
-        "title": " a Logo"
-      },
-      "readme.png": { }
+    "filename": "../images/logo.png",
+    "usings": {
+        "icon.png": {}
+    },
+    "src": {
+        "telegram": {
+            "assets": {
+                "icon.png": {
+                    "caption": "The base icon for DGMJR-IO Telegram package icons",
+                    "title": "\"DGMJR-IO\" Base Telegram Icon"
+                }
+            },
+            "src": {
+                "bot.extensions": {
+                    "icon.png": {
+                        "caption": "\"DGMJR-IO\" Telegram Bot Extensions Icon",
+                        "title": "\"DGMJR-IO\" Telegram Bot Extensions Icon"
+                    }
+                },
+                "constants": {
+                    "icon.png": {
+                        "caption": "\"DGMJR-IO\" Telegram Constants Icon",
+                        "title": "\"DGMJR-IO\" Telegram Constants Icon"
+                    }
+                },
+                "converters": {
+                    "icon.png": {
+                        "caption": "\"DGMJR-IO\" Telegram System.Text.Json Converter Icon",
+                        "title": "\"DGMJR-IO\" Telegram System.Text.Json Converter Icon"
+                    }
+                },
+                "entityframeworkcore": {
+                    "icon.png": {
+                        "caption": "\"DGMJR-IO\" Telegram EFCore Icon",
+                        "title": "\"DGMJR-IO\" Telegram EFCore Icon"
+                    }
+                },
+                "identity": {
+                    "icon.png": {
+                        "caption": "\"DGMJR-IO\" Telegram Identity Icon",
+                        "title": "\"DGMJR-IO\" Telegram Identity Icon"
+                    }
+                }
+            }
+        }
     }
-  },
-  "filename": "../images/logo.png"
 }

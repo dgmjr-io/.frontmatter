@@ -1,52 +1,63 @@
-export interface IAuthors
-{
-    authors:string[]|undefined;
+/* 
+ * interfaces.ts
+ * 
+ *   Created: 2023-07-27-08:38:19
+ *   Modified: 2023-07-27-08:38:19
+ * 
+ *   Author: David G. Moore, Jr. <david@dgmjr.io>
+ * 
+ *   Copyright © 2022 - 2023 David G. Moore, Jr., All Rights Reserved
+ *      License: MIT (https://opensource.org/licenses/MIT)
+ */
+
+export interface Dates extends LastModifiedDate, PublishedDate {
 }
 
-export interface IKeywords
-{
-    keywords: string[]|undefined;
+export interface Authors {
+    authors?: string[];
 }
 
-export interface IDescription
-{
-    description: string|undefined
+export interface Slug {
+    slug?: string;
 }
 
-export interface IPublishDate
-{
-    date:Date|undefined;
+export interface Authors {
+    authors?: string[];
 }
 
-export interface ILastModified
-{
-    lastMod:Date|undefined;
+export interface Keywords {
+    keywords?: string[];
 }
 
-export interface ISlug
-{
-    slug:string|undefined;
+export interface Description {
+    description?: string
 }
 
-export interface ITitle
-{
-    title:string|undefined;
+export interface PublishedDate {
+    date?: Date;
 }
 
-export interface IProjectSlug
-{
-    project:string|undefined;
+export interface LastModifiedDate {
+    lastMod?: Date;
 }
 
-export interface ILicenseSlug
-{
-    license:string|undefined;
+export interface Slug {
+    slug?: string;
 }
 
-export interface IReadme extends IAuthors, IKeywords, 
-                        IDescription, IPublishDate, 
-                        ILastModified, ISlug, IProjectSlug, 
-                        ITitle
-{
+export interface Title {
+    title?: string;
+}
 
+export interface ProjectSlug {
+    project?: string;
+}
+
+export interface LicenseSlug {
+    license?: string;
+}
+
+export interface Readme extends Authors, Keywords,
+    Description, Dates, Slug, ProjectSlug, LicenseSlug,
+    Title {
 }
