@@ -6,5 +6,11 @@
   "id": "licenses",
   "labelField": "name",
   "title": "Licenses",
-  "type": "license"
+  "type": "license",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "$ref": "https://raw.githubusercontent.com/spdx/license-list-data/main/json/licenses.json#/properties"
+    }
+  }
 }

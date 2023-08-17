@@ -3,47 +3,9 @@
   "$schema": "https://frontmatter.codes/config/data.types.schema.json",
   "id": "license",
   "schema": {
+    "type": "object",
     "properties": {
-      "detailsUrl": {
-        "format": "uri",
-        "title": "URL for Computers (JSON)",
-        "type": "string"
-      },
-      "isDeprecatedLicenseId": {
-        "title": "Is Deprecated",
-        "type": "boolean"
-      },
-      "isDsiApproved": {
-        "title": "Is DSI Approved",
-        "type": "boolean"
-      },
-      "licenseId": {
-        "title": "SPDX ID",
-        "type": "string"
-      },
-      "name": {
-        "title": "Name",
-        "type": "string"
-      },
-      "reference": {
-        "format": "uri",
-        "title": "URL for Humans",
-        "type": "string"
-      },
-      "referenceNumber": {
-        "title": "Reference #",
-        "type": "integer"
-      },
-      "seeAlso": {
-        "items": {
-          "format": "uri",
-          "type": "string"
-        },
-        "title": "See Also",
-        "type": "array"
-      }
-    },
-    "title": "Licenses",
-    "type": "object"
+      "$ref": "https://raw.githubusercontent.com/spdx/spdx-spec/development/v2.3.1/schemas/spdx-schema.json#/properties"
+    }
   }
 }
