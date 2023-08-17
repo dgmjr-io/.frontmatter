@@ -3,9 +3,9 @@
   "$schema": "https://frontmatter.codes/config/data.types.schema.json",
   "id": "license",
   "schema": {
-    "type": "object",
     "properties": {
       "$ref": "https://raw.githubusercontent.com/spdx/spdx-spec/development/v2.3.1/schemas/spdx-schema.json#/properties"
-    }
+    },
+    "type": "object"
   }
 }
