@@ -1,11 +1,11 @@
 {
   "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/scripts/package.json",
   "$schema": "https://json.schemastore.org/package.json",
-  "devDependencies": {
-    "@tsconfig/node16": "^1.0.4"
-  },
   "dependencies": {
     "@types/collections": "^5.1.2",
     "collections": "^5.1.13"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.4"
   }
 }
