@@ -1,44 +1,40 @@
-[
-  {
-    "initials": "DGMJR",
-    "name": "David G. Moore, Jr.",
-    "email": "david@dgmjr.io",
-    "first_name": "David G.",
-    "last_name": "Moore, Jr.",
-    "website": "https://dgmjr.io",
-    "github": "dgmjr",
-    "twitter": "DrDGMooreJr",
-    "linkedin": "https://dgmjr.in",
-    "bio": "David is a 39-year-old software engineer and part-time college professor living in Washington, DC.",
-    "avatar": "https://en.gravatar.com/userimage/205392885/77e2b1433302ecfe1e4c28bd3d3e6a97.png?size=500",
-    "slug": "dgmjr"
-  },
-  {
-    "initials": "JWB",
-    "name": "John Wilkes Booth",
-    "email": "ikilledlincoln@whitehouse.gov",
-    "first_name": "John",
-    "last_name": "Booth",
-    "website": "https://www.whitehouse.gov",
-    "github": "ikilledlincoln",
-    "twitter": "ikilledlincoln",
-    "linkedin": "https://linkedin.com/in/ikilledlincoln",
-    "bio": "John Wilkes Booth was an American actor who assassinated President Abraham Lincoln at Ford's Theatre in Washington, D.C., on April 14, 1865.",
-    "slug": "jwb",
-    "avatar": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQk4wYwz4WBWACS8vtAs-R5L2sYmz3EwRvpcqdQ3gHXnQ3b9Z2MEpi165-bJjm9YxGqDqpM4rnwmOoJYi4"
-  },
-  {
-    "initials": "unattributed",
-    "name": "Unattributed",
-    "email": "unattributed@dgmjr.io",
-    "first_name": "No",
-    "last_name": "One",
-    "website": "https://nowhere.com",
-    "github": "unattributed",
-    "twitter": "",
-    "linkedin": "",
-    "bio": "This file has not been attributed to any author as of yet.",
-    "slug": "unatt",
-    "avatar": "https://st3.depositphotos.com/12985790/18246/i/450/depositphotos_182461084-stock-photo-anonymous.jpg"
-  }
-]
+[ {
+  "avatar": "https://en.gravatar.com/userimage/205392885/77e2b1433302ecfe1e4c28bd3d3e6a97.png?size=500",
+  "bio": "David is a 39-year-old software engineer and part-time college professor living in Washington, DC.",
+  "email": "david@dgmjr.io",
+  "first_name": "David G.",
+  "github": "dgmjr",
+  "initials": "DGMJR",
+  "last_name": "Moore, Jr.",
+  "linkedin": "https://dgmjr.in",
+  "name": "David G. Moore, Jr.",
+  "slug": "dgmjr",
+  "twitter": "DrDGMooreJr",
+  "website": "https://dgmjr.io"
+}, {
+  "avatar": "http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQk4wYwz4WBWACS8vtAs-R5L2sYmz3EwRvpcqdQ3gHXnQ3b9Z2MEpi165-bJjm9YxGqDqpM4rnwmOoJYi4",
+  "bio": "John Wilkes Booth was an American actor who assassinated President Abraham Lincoln at Ford's Theatre in Washington, D.C., on April 14, 1865.",
+  "email": "ikilledlincoln@whitehouse.gov",
+  "first_name": "John",
+  "github": "ikilledlincoln",
+  "initials": "JWB",
+  "last_name": "Booth",
+  "linkedin": "https://linkedin.com/in/ikilledlincoln",
+  "name": "John Wilkes Booth",
+  "slug": "jwb",
+  "twitter": "ikilledlincoln",
+  "website": "https://www.whitehouse.gov"
+}, {
+  "avatar": "https://st3.depositphotos.com/12985790/18246/i/450/depositphotos_182461084-stock-photo-anonymous.jpg",
+  "bio": "This file has not been attributed to any author as of yet.",
+  "email": "unattributed@dgmjr.io",
+  "first_name": "No",
+  "github": "unattributed",
+  "initials": "unattributed",
+  "last_name": "One",
+  "linkedin": "",
+  "name": "Unattributed",
+  "slug": "unatt",
+  "twitter": "",
+  "website": "https://nowhere.com"
+} ]
