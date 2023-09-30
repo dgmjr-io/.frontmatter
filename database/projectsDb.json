@@ -8,7 +8,7 @@
   {
     "description": "A repository of repositories containing various data types and source code generators.",
     "name": "Dgmjr.Types",
-    "repoUrl": "https://github.com/dgmr-io/Type.git",
+    "repoUrl": "https://github.com/dgmjr-io/Dgmjr.Types.git",
     "slug": "types",
     "title": "Types"
   },

@@ -1,4 +1,4 @@
 {
     "$id":"https://github.com/dgmjr-io/.frontmatter/tree/main/.frontmatter/config/placeholders/synchronize-title-and-description.json",
-    "$schema": "https://frontmatter.codes/"
+    "$schema": "https://frontmatter.codes/config/content.placeholders.schema.json"
 }
