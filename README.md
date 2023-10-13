@@ -1,4 +1,5 @@
 ---
+
 title: .frontmatter
 authors:
 - dgmjr
@@ -8,7 +9,7 @@ keywords:
 - frontmatter
 type: readme
 slug: frontmatter
----
+-----------------
 
 # .frontmatter
 
