@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/dgmjr-io/.frontmatter/tree/main/config/content/pagefolders/pagefolders.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/tree/main/config/content/pagefolders/pagefolders.json?raw=true",
   "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
   "frontmatter.content.pagefolders": [
     {

@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/license.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/license.json?raw=true",
   "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
   "defaultFleName": "LICENSE.md",
   "description": "A license for a project",

@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/analyzerReleases.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/taxonomy/contenttypes/analyzerReleases.json?raw=true",
   "$schema": "https://frontmatter.codes/config/taxonomy.contenttypes.schema.json",
   "fields": [
     {

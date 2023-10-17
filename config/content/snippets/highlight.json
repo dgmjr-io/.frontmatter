@@ -1,6 +1,6 @@
  {
     "$schema":"https://frontmatter.codes/config/content.snippets.schema.json",
-    "$id":"https://github.com/dgmjr-io/dgmj-io/.frontmatter/config/content/snippets/highlight.json",
+    "$id":"https://github.com/dgmjr-io/dgmj-io/.frontmatter/config/content/snippets/highlight.json?raw=true",
    {
     "title":"Highlight",
     "description": "Creates a code highlighting box",

@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/types/author.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/types/author.json?raw=true",
   "$schema": "https://frontmatter.codes/config/data.types.schema.json",
   "id": "author",
   "schema": {

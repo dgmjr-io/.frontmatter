@@ -1,6 +1,6 @@
 {
     "$schema": "https://frontmatter.codes/config/content.snippets.schema.json",
-    "$id": "https://github.com/dgmjr-io/dgmj-io/.frontmatter/config/content/snippets/imagewithcaption.json",
+    "$id": "https://github.com/dgmjr-io/dgmj-io/.frontmatter/config/content/snippets/imagewithcaption.json?raw=true",
     {
         "title": "Image snippet",
         "description": "Image with caption",

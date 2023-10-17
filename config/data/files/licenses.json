@@ -1,16 +1,31 @@
 {
-  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/files/licenses.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/files/licenses.json?raw=true",
   "$schema": "https://frontmatter.codes/config/data.files.schema.json",
-  "file": "[[workspace]]/.frontmatter/database/licensesDb.json",
+  "file": "https://api.github.com/licenses",
   "fileType": "json",
   "id": "licenses",
   "labelField": "name",
-  "title": "Licenses",
-  "type": "license",
   "schema": {
-    "type": "object",
     "properties": {
-      "$ref": "https://raw.githubusercontent.com/spdx/license-list-data/main/json/licenses.json#/properties"
-    }
-  }
+      "key": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "node_id": {
+        "type": "string"
+      },
+      "spdx_id": {
+        "type": "string"
+      },
+      "url": {
+        "format": "uri",
+        "type": "string"
+      }
+    },
+    "type": "object"
+  },
+  "title": "Licenses",
+  "type": "license"
 }

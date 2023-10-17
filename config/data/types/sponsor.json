@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/types/sponsor.json",
+  "$id": "https://github.com/dgmjr-io/.frontmatter/blob/main/config/data/types/sponsor.json?raw=true",
   "$schema": "https://beta.frontmatter.codes/config/data.types.schema.json",
   "id": "sponsor",
   "schema": {
