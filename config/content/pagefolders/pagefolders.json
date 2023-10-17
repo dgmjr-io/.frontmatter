@@ -1,36 +1,29 @@
 {
   "$id": "https://github.com/dgmjr-io/.frontmatter/tree/main/config/content/pagefolders/pagefolders.json?raw=true",
   "$schema": "https://frontmatter.codes/config/content.pagefolders.schema.json",
-  "frontmatter.content.pagefolders": [
-    {
-      "excludeSubdir": true,
-      "path": "[[workspace]]/src/Identity/src/Claims/Abstractions",
-      "title": "Identity.Claims.Abstractions"
-    },
-    {
-      "excludeSubdir": true,
-      "path": "[[workspace]]/src/Identity/src/Claims/ClaimTypes",
-      "title": "Identity.ClaimTypes"
-    },
-    {
-      "excludeSubdir": true,
-      "path": "[[workspace]]/src/Identity/src/Claims/ClaimValueTypes",
-      "title": "Identity.ClaimValueTypes"
-    },
-    {
-      "excludeSubdir": true,
-      "path": "[[workspace]]/src/Identity/src/Claims/Jwt",
-      "title": "Idenitiy.Jwt"
-    },
-    {
-      "excludeSubdir": true,
-      "path": "[[workspace]]/src/Identity/src/Claims",
-      "title": "Claims"
-    },
-    {
-      "excludeSubdir": true,
-      "path": "[[workspace]]/src/Identity/src/Telegram",
-      "title": "Telegram"
-    }
-  ]
+  "frontmatter.content.pagefolders": [ {
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims/Abstractions",
+    "title": "Identity.Claims.Abstractions"
+  }, {
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims/ClaimTypes",
+    "title": "Identity.ClaimTypes"
+  }, {
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims/ClaimValueTypes",
+    "title": "Identity.ClaimValueTypes"
+  }, {
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims/Jwt",
+    "title": "Idenitiy.Jwt"
+  }, {
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Claims",
+    "title": "Claims"
+  }, {
+    "excludeSubdir": true,
+    "path": "[[workspace]]/src/Identity/src/Telegram",
+    "title": "Telegram"
+  } ]
 }
